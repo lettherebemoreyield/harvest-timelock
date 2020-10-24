@@ -17,7 +17,7 @@ import { useState, useEffect } from "react";
 import masterchefAbi from "./masterchef-abi.json";
 import timelockAbi from "./timelock-abi.json";
 
-const timelockAddress = "0x1C47343eA7135c2bA3B2d24202AD960aDaFAa81c";
+const timelockAddress = "0x1c47343ea7135c2ba3b2d24202ad960adafaa81c";
 const etherscanProvider = new ethers.providers.EtherscanProvider(1);
 
 // Timelock contract
