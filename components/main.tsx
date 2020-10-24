@@ -84,7 +84,7 @@ const Main = () => {
 
   return (
     <Page>
-      <Text h2>SushiSwap Timelock Transactions</Text>
+      <Text h2>Harvest.Finance Timelock Transactions</Text>
       <Text type="secondary">
         Only last 10,000 transactions displayed.{" "}
         <Link
