@@ -17,7 +17,7 @@ import { useState, useEffect } from "react";
 import masterchefAbi from "./masterchef-abi.json";
 import timelockAbi from "./timelock-abi.json";
 
-const timelockAddress = "0xf00dD244228F51547f0563e60bCa65a30FBF5f7f";
+const timelockAddress = "0x1C47343eA7135c2bA3B2d24202AD960aDaFAa81c";
 const etherscanProvider = new ethers.providers.EtherscanProvider(1);
 
 // Timelock contract
@@ -89,7 +89,7 @@ const Main = () => {
         Only last 10,000 transactions displayed.{" "}
         <Link
           color
-          href="https://etherscan.io/address/0xf00dD244228F51547f0563e60bCa65a30FBF5f7f"
+          href="https://etherscan.io/address/0x1C47343eA7135c2bA3B2d24202AD960aDaFAa81c"
         >
           Timelock Contract.
         </Link>
