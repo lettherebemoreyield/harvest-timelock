@@ -17,7 +17,7 @@ import { useState, useEffect } from "react";
 import masterchefAbi from "./masterchef-abi.json";
 import timelockAbi from "./timelock-abi.json";
 
-const timelockAddress = "0x9a8541ddf3a932a9a922b607e9cf7301f1d47bd1";
+const timelockAddress = "0xf00dD244228F51547f0563e60bCa65a30FBF5f7f";
 const etherscanProvider = new ethers.providers.EtherscanProvider(1);
 
 // Timelock contract
@@ -89,7 +89,7 @@ const Main = () => {
         Only last 10,000 transactions displayed.{" "}
         <Link
           color
-          href="https://etherscan.io/address/0x9a8541ddf3a932a9a922b607e9cf7301f1d47bd1"
+          href="https://etherscan.io/address/0xf00dD244228F51547f0563e60bCa65a30FBF5f7f"
         >
           Timelock Contract.
         </Link>
@@ -136,10 +136,10 @@ const Main = () => {
         <Col>
           <Text h5>
             by{" "}
-            <Link color href="https://twitter.com/kendricktrh">
+            <Link color href="https://twitter.com/ltbmy">
               @kendricktrh
             </Link>,{' '}
-            <Link color href="https://github.com/abstracted-finance/sushi-txs-wtf">
+            <Link color href="timelocks.eth">
               code
             </Link>
           </Text>
